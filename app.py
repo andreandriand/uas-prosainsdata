@@ -47,14 +47,19 @@ with tab1:
     )
 
     st.write(
-        "Aplikasi ini dibuat untuk memprediksi harga saham PT GoTo Gojek Tokopedia Tbk (GOTO.JK) di  masa depan. Dataset untuk pembuatan aplikasi ini berbentuk timeseries yang didapat dari laman finance.yahoo.com"
+        "Aplikasi ini dibuat untuk memprediksi harga saham PT GoTo Gojek Tokopedia Tbk (GOTO.JK). Dataset untuk pembuatan aplikasi ini berbentuk time series yang didapat dari laman finance.yahoo.com"
     )
     st.write(
-        "Data yang digunakan adalah Tanggal dan Close, dimana close merupakan harga saham ketika pasar ditutup."
+        "Data yang digunakan adalah harga saham PT. GoTo Gojek Tokopedia Tbk (GOTO.JK) dalam kurun waktu tertentu."
     )
     st.write(
         "Repository aplikasi ini dapat diakses pada link berikut: https://github.com/andreandriand/uas-prosainsdata"
     )
+
+    st.write('Kelompok :')
+    st.write('1. Andrian Dwi Baitur Rizky (200411100210)')
+    st.write('2. Muhammad Aulia Faqihuddin (200411100027)')
+
     st.subheader("Dataset Saham PT GoTo Gojek Tokopedia Tbk (GOTO.JK)")
 
     st.write(data)
