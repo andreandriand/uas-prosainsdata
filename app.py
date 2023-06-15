@@ -175,7 +175,7 @@ with tab3:
         st.subheader("Akurasi Model")
         st.write("Berikut adalah akurasi model yang anda pilih:")
         st.write("Mean Squared Error: ", mse)
-        st.write("Mean Absolute Percentage Error: ", mape)
+        st.write("Mean Absolute Percentage Error: ", round(100 * mape, 2), "%")
 
 with tab4:
     st.header("Implementasi Aplikasi")
